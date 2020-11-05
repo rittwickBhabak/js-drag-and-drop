@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .imgBox {
+            background-image: url('photo.png');
+            position: relative;
+            margin: auto;
+            height: 235px;
+            width: 190px;
+            top: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Drag and Drop the image from one box to anoter box</h1>
+        <div class="whiteBox">
+            <div class="imgBox" draggable="true"></div>
+        </div>
+        <div class="whiteBox"></div>
+        <div class="whiteBox"></div>
+        <div class="whiteBox"></div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
